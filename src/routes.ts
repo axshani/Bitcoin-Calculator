@@ -9,7 +9,7 @@ const routes = [
   //   icon: HomeIcon
   // },
   {
-    path: "/calculator",
+    path: "/Bitcoin-Calculator",
     sidebarName: "מחשבון",
     hidden:true,
     component: Calculator
