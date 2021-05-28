@@ -1,4 +1,4 @@
-import React, { useEffect,useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   makeStyles,
   TextField,
@@ -32,7 +32,7 @@ const SignUp = () => {
 
   function calculate() {
     setResult(
-      ((1 - values.fee/100)*values.amount) / values.usd / values.btc)
+      ((1 - values.fee / 100) * values.amount) / values.usd / values.btc)
   }
 
   const [values, setValues] = useState({
@@ -47,6 +47,15 @@ const SignUp = () => {
     fetch('https://www.binance.com/api/v3/depth?symbol=BTCUSDT&limit=1000')
       .then(response => response.json())
       .then(data => setValues({ ...values, btc: parseInt(data.asks[999][0]) }));
+
+    fetch('http://www.bankhapoalim.co.il/he/coin-rates', {
+      headers: {
+        'Access-Control-Allow-Origin': '*'
+      }
+    })
+      .then(response => response.json())
+      .then(data => console.log(data))
+      .catch(error => console.log(error))
   }, [])
 
   const handleChange = (prop: string) => (event: {
@@ -122,7 +131,7 @@ const SignUp = () => {
       </Button>
       <br></br>
       {result !== 0 && (<Typography variant="h6">
-      BTC: {result}
+        BTC: {result}
       </Typography>)}
     </div>
   );
