@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Bitcoin-Calculator/precache-manifest.b0488f1b0a167735f6653535370ed73d.js"
+  "/Bitcoin-Calculator/precache-manifest.7030d7f6cd7386866da3b433fee960ba.js"
 );
 
 self.addEventListener('message', (event) => {
