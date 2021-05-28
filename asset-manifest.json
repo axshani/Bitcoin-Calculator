@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Bitcoin-Calculator/static/css/main.100609f3.chunk.css",
+    "main.js": "/Bitcoin-Calculator/static/js/main.aa05f9fc.chunk.js",
+    "main.js.map": "/Bitcoin-Calculator/static/js/main.aa05f9fc.chunk.js.map",
+    "runtime-main.js": "/Bitcoin-Calculator/static/js/runtime-main.ed35ca1e.js",
+    "runtime-main.js.map": "/Bitcoin-Calculator/static/js/runtime-main.ed35ca1e.js.map",
+    "static/js/2.24eb0e75.chunk.js": "/Bitcoin-Calculator/static/js/2.24eb0e75.chunk.js",
+    "static/js/2.24eb0e75.chunk.js.map": "/Bitcoin-Calculator/static/js/2.24eb0e75.chunk.js.map",
+    "index.html": "/Bitcoin-Calculator/index.html",
+    "precache-manifest.b0488f1b0a167735f6653535370ed73d.js": "/Bitcoin-Calculator/precache-manifest.b0488f1b0a167735f6653535370ed73d.js",
+    "service-worker.js": "/Bitcoin-Calculator/service-worker.js",
+    "static/css/main.100609f3.chunk.css.map": "/Bitcoin-Calculator/static/css/main.100609f3.chunk.css.map",
+    "static/js/2.24eb0e75.chunk.js.LICENSE.txt": "/Bitcoin-Calculator/static/js/2.24eb0e75.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ed35ca1e.js",
+    "static/js/2.24eb0e75.chunk.js",
+    "static/css/main.100609f3.chunk.css",
+    "static/js/main.aa05f9fc.chunk.js"
+  ]
+}
