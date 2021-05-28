@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b3edc2dbbc581e13c949fe72fb7e5138",
+    "revision": "92cf576b82ab931b5873df787afdd691",
     "url": "/Bitcoin-Calculator/index.html"
   },
   {
-    "revision": "7f3fdd069994c112ef1f",
+    "revision": "9224490fdcdfc2b98c5b",
     "url": "/Bitcoin-Calculator/static/css/main.100609f3.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Bitcoin-Calculator/static/js/2.24eb0e75.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7f3fdd069994c112ef1f",
-    "url": "/Bitcoin-Calculator/static/js/main.6dfd2a6d.chunk.js"
+    "revision": "9224490fdcdfc2b98c5b",
+    "url": "/Bitcoin-Calculator/static/js/main.80d1166f.chunk.js"
   },
   {
     "revision": "d66e080d38c82b4c1c08",

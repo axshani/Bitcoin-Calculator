@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Bitcoin-Calculator/static/css/main.100609f3.chunk.css",
-    "main.js": "/Bitcoin-Calculator/static/js/main.6dfd2a6d.chunk.js",
-    "main.js.map": "/Bitcoin-Calculator/static/js/main.6dfd2a6d.chunk.js.map",
+    "main.js": "/Bitcoin-Calculator/static/js/main.80d1166f.chunk.js",
+    "main.js.map": "/Bitcoin-Calculator/static/js/main.80d1166f.chunk.js.map",
     "runtime-main.js": "/Bitcoin-Calculator/static/js/runtime-main.ed35ca1e.js",
     "runtime-main.js.map": "/Bitcoin-Calculator/static/js/runtime-main.ed35ca1e.js.map",
     "static/js/2.24eb0e75.chunk.js": "/Bitcoin-Calculator/static/js/2.24eb0e75.chunk.js",
     "static/js/2.24eb0e75.chunk.js.map": "/Bitcoin-Calculator/static/js/2.24eb0e75.chunk.js.map",
     "index.html": "/Bitcoin-Calculator/index.html",
-    "precache-manifest.e609f2273b3ef29435b5c49a71f2994a.js": "/Bitcoin-Calculator/precache-manifest.e609f2273b3ef29435b5c49a71f2994a.js",
+    "precache-manifest.0defbdd558d6e47a755520aa946950ec.js": "/Bitcoin-Calculator/precache-manifest.0defbdd558d6e47a755520aa946950ec.js",
     "service-worker.js": "/Bitcoin-Calculator/service-worker.js",
     "static/css/main.100609f3.chunk.css.map": "/Bitcoin-Calculator/static/css/main.100609f3.chunk.css.map",
     "static/js/2.24eb0e75.chunk.js.LICENSE.txt": "/Bitcoin-Calculator/static/js/2.24eb0e75.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.ed35ca1e.js",
     "static/js/2.24eb0e75.chunk.js",
     "static/css/main.100609f3.chunk.css",
-    "static/js/main.6dfd2a6d.chunk.js"
+    "static/js/main.80d1166f.chunk.js"
   ]
 }
