@@ -38,7 +38,7 @@ const SignUp = () => {
   const [values, setValues] = useState({
     amount: 0,
     fee: 0,
-    usd: 3.3170,
+    usd: 3.33000,
     btc: 0,
   });
   const [result, setResult] = useState(0)
@@ -46,16 +46,7 @@ const SignUp = () => {
   useEffect(() => {
     fetch('https://www.binance.com/api/v3/depth?symbol=BTCUSDT&limit=1000')
       .then(response => response.json())
-      .then(data => setValues({ ...values, btc: parseInt(data.asks[999][0]) }));
-
-    fetch('https://www.bankhapoalim.co.il/he/coin-rates', {
-      headers: {
-        'Access-Control-Allow-Origin': '*'
-      }
-    })
-      .then(response => response.json())
-      .then(data => console.log(data))
-      .catch(error => console.log(error))
+      .then(data => setValues({ ...values, btc: parseInt(data.asks[999][0])}));
   }, [])
 
   const handleChange = (prop: string) => (event: {
