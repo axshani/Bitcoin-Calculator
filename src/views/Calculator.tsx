@@ -48,7 +48,7 @@ const SignUp = () => {
       .then(response => response.json())
       .then(data => setValues({ ...values, btc: parseInt(data.asks[999][0]) }));
 
-    fetch('http://www.bankhapoalim.co.il/he/coin-rates', {
+    fetch('https://www.bankhapoalim.co.il/he/coin-rates', {
       headers: {
         'Access-Control-Allow-Origin': '*'
       }
